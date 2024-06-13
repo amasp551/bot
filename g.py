@@ -63,7 +63,7 @@ def mess(message):
 	py=check_credit_card_payment(url)
 	kg=bot.reply_to(message,f'<strong>[~]-Lodaing.... 🥸</strong>',parse_mode="HTML")
 	time.sleep(1)
-	msg=[f"[~]- Captcha = {c}",f"[~]- Captcha = {c}\n\n[~]- Cloud = {co}",f"[~]- Captcha = {c}\n\n[~]- Cloud = {co}\n\n[~]- Payment = {py}",f"[~]- Captcha = {c}\n\n[~]- Cloud = {co}\n\n[~]- Payment = {py}\n\n[~]- Bot By = <a href='tg://openmessage?user_id=6689099522'>Hare</a>"]
+	msg=[f"[~]- Captcha = {c}",f"[~]- Captcha = {c}\n\n[~]- Cloud = {co}",f"[~]- Captcha = {c}\n\n[~]- Cloud = {co}\n\n[~]- Payment = {py}",f"[~]- Captcha = {c}\n\n[~]- Cloud = {co}\n\n[~]- Payment = {py}\n\n[~]- Bot By = <a href='tg://openmessage?user_id=6474882973'>marf</a>"]
 	time_sleep=0
 	for _ in msg:
 		bot.edit_message_text(_,message.chat.id, kg.message_id,parse_mode='html')
